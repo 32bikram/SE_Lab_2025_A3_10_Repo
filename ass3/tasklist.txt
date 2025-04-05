@@ -1,3 +1,3 @@
 TaskID | TaskName | TaskStatus
-1 | uh bvc nebn | Pending
-2 | tgm,goj tgnjn | Pending
+1 | COA | Pending
+2 | DBMS | Pending
