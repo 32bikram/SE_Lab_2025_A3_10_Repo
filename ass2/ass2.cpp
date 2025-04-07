@@ -170,7 +170,7 @@ int main(){
         return 0;
     }
     
-    system("mysqldump -u root -p030203 STUDENTS_MARKS > database.sql");
+    system("mysqldump -u root -p030203 STUDENTS_MARKS > dbase.sql");
     system("git add database.sql");
     system("git commit -m \"database is uploaded\"");
     system("git push origin main");
