@@ -196,7 +196,7 @@ int main(){
 
     system("git add database.sql");
     system("git commit -m \"database is uploaded\"");
-
+    system("git push origin main");
 
 
     mysql_close(conn);
