@@ -160,8 +160,8 @@ int main(){
     }
     }
     else{
-        system("mysqldump -u root -p030203 STUDENTS_MARKS > database.sql");
-        system("git add database.sql");
+        system("mysqldump -u root -p030203 STUDENTS_MARKS > dbase.sql");
+        system("git add dbase.sql");
         system("git commit -m \"database is uploaded\"");
         system("git push origin main");
         cout<<"============================================================\n";
